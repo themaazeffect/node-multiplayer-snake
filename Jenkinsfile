@@ -1,4 +1,3 @@
-pipeline {
 node any {  
     def app
     stage('Cloning Git') {
@@ -26,5 +25,5 @@ node any {
       }
  
 }
-}
+
 
